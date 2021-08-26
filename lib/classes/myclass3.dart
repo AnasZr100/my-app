@@ -15,14 +15,11 @@ class AnasState2 extends State<Anas2>{
       value3=value;
     });
   }
-  void chv4 (value){
+  void chv4 (value) {
     setState(() {
-      value4=value;
+      value4 = value;
     });
   }
- void dd (){
-    print('qwdq');
- }
   void ShowBottomSheet(){
     showModalBottomSheet(context: context, builder: (BuildContext context){
       return new Container(
